@@ -226,9 +226,9 @@
     "yallist": "^3.1.1"
   },
   "devDependencies": {
-    "jquery": "^3.7.1",
     "webpack": "^5.92.1",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "jquery": "^3.7.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
