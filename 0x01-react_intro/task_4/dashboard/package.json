@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -r https://samehelgazar95.github/alx-react/0x01-react_intro"
   },
   "eslintConfig": {
     "extends": [
