@@ -1,0 +1,60 @@
+:root {
+  --main-color: #e0354b;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  height: 100vh;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 3px solid var(--main-color);
+}
+
+.app-header img {
+  width: 200px;
+  height: 200px;
+}
+
+.app-header h1 {
+  margin-left: 30px;
+  color: var(--main-color);
+}
+
+.app-body {
+  padding: 40px 0px 0px 40px;
+}
+
+.form-section {
+  margin-top: 15px;
+}
+
+.form {
+  display: flex;
+  gap: 15px;
+}
+
+.form label {
+  margin-right: 10px;
+}
+
+.form button {
+  padding: 0px 5px;
+}
+
+.app-footer {
+  position: absolute;
+  bottom: 0;
+  padding: 15px;
+  border-top: 3px solid var(--main-color);
+  width: 100%;
+  text-align: center;
+}
